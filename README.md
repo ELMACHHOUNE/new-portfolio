@@ -33,18 +33,6 @@ Top-level files and folders (important ones):
 
 You can preview the site by serving it from a simple static server. From the repository root (where `index.html` is), run one of the following in PowerShell:
 
-```powershell
-# If you have Python installed (works with Python 3):
-python -m http.server 8000
-
-# Or using npm without installing globally:
-npx http-server . -p 8000
-```
-
-Then open http://localhost:8000 in your browser.
-
-Note: No build step is required. Files are ready to be served as static assets.
-
 ## Customize the site
 
 - Edit content in the HTML files to modify layout and text.
